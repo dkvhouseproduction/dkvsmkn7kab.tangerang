@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101f3d" />
+  <meta name="description" content="Website resmi kegiatan, galeri, dan karya siswa DKV SMKN 7 Kabupaten Tangerang." />
+  <title>DKV SMKN 7 Kabupaten Tangerang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="site-header">
+    <a class="brand" href="#beranda" aria-label="DKV SMKN 7 beranda">
+      <span class="brand-mark">DKV<span>.</span></span>
+      <span class="brand-copy"><strong>SMKN 7</strong><small>KABUPATEN TANGERANG</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#beranda">Beranda</a><a href="#profil">Profil Jurusan</a><a href="#kegiatan">Kegiatan</a><a href="#galeri">Galeri</a><a href="#karya">Karya Siswa</a>
+      <button class="nav-login" id="openLogin">Admin Login ↗</button>
+    </nav>
+  </header>
+
+  <main id="publicSite">
+    <section class="hero" id="beranda">
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> DESAIN KOMUNIKASI VISUAL</p>
+        <h1>Kreativitas Tanpa Batas,<br><em>Karya Penuh Makna.</em></h1>
+        <p class="hero-desc">Ruang cerita, proses, dan karya kreatif siswa DKV SMKN 7 Kabupaten Tangerang. Dari ide sederhana, lahir karya yang bermakna.</p>
+        <div class="hero-actions"><a class="btn btn-gold" href="#galeri">Jelajahi Galeri <span>↗</span></a><a class="text-link" href="#profil">Kenali jurusan kami <span>→</span></a></div>
+        <div class="hero-note"><span class="note-line"></span><span>IDE · PROSES · KARYA</span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi abstrak kreatif">
+        <div class="art-grid"></div><div class="art-circle circle-one"></div><div class="art-circle circle-two"></div><div class="art-card card-one"><span>IDEA</span><b>01</b><small>CREATE / EXPLORE</small></div><div class="art-card card-two"><span>VISUAL</span><b>02</b><small>DESIGN / STORY</small></div><div class="art-spark">✳</div><div class="art-label">CREATIVE<br>DEPARTMENT</div>
+      </div>
+      <div class="hero-bottom"><span>SMK NEGERI 7 KABUPATEN TANGERANG</span><span>EST. LEARNING THROUGH CREATIVITY</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="profil">
+      <div class="section-kicker">01 / TENTANG KAMI</div>
+      <div class="intro-grid"><div><h2>Mengubah ide<br>menjadi <span>visual.</span></h2></div><div class="intro-copy"><p>Desain Komunikasi Visual adalah ruang untuk belajar menyampaikan pesan melalui gambar, desain, foto, video, dan media kreatif lainnya.</p><p>Di sini, siswa mengeksplorasi ide, mengasah keterampilan, bekerja dalam tim, dan menghasilkan karya yang relevan dengan dunia kreatif.</p><a class="under-link" href="#karya">Lihat karya siswa <span>↗</span></a></div></div>
+      <div class="skill-grid"><article class="skill-card"><span class="skill-num">01</span><div class="skill-icon">▧</div><h3>Desain Grafis</h3><p>Menyusun ide menjadi visual yang kuat dan komunikatif.</p></article><article class="skill-card"><span class="skill-num">02</span><div class="skill-icon">◉</div><h3>Fotografi</h3><p>Merekam momen dan cerita melalui sudut pandang visual.</p></article><article class="skill-card"><span class="skill-num">03</span><div class="skill-icon">▶</div><h3>Videografi</h3><p>Mengolah gambar bergerak menjadi cerita yang berkesan.</p></article><article class="skill-card"><span class="skill-num">04</span><div class="skill-icon">✳</div><h3>Media Kreatif</h3><p>Mengembangkan ide untuk kebutuhan komunikasi digital.</p></article></div>
+    </section>
+
+    <section class="activity-section" id="kegiatan"><div class="section-wrap"><div class="section-head"><div><div class="section-kicker light">02 / CERITA KAMI</div><h2>Kegiatan & <span>pengalaman.</span></h2></div><p>Belajar tidak hanya di dalam kelas. Setiap kegiatan menjadi kesempatan untuk tumbuh dan berkarya.</p></div><div class="activity-feature"><div class="feature-visual"><div class="feature-placeholder"><span>DKV / FIELD NOTES</span><strong>Belajar.<br>Berproses.<br>Berkarya.</strong><div class="feature-stamp">CREATE<br>TOGETHER</div></div></div><div class="feature-copy"><span class="mini-tag">KEGIATAN JURUSAN</span><h3>Setiap pengalaman punya cerita.</h3><p>Dokumentasi kegiatan, kolaborasi, praktik, dan pengalaman siswa DKV akan hadir di sini. Galeri ini dapat diperbarui oleh tim media atau guru melalui halaman admin.</p><a class="under-link light-link" href="#galeri">Lihat dokumentasi <span>↗</span></a></div></div></div></section>
+
+    <section class="gallery-section section-wrap" id="galeri"><div class="section-head"><div><div class="section-kicker">03 / DOKUMENTASI</div><h2>Potret <span>perjalanan.</span></h2></div><p>Kumpulan foto dan video kegiatan jurusan yang merekam proses, kolaborasi, dan momen berharga.</p></div><div class="filters" id="galleryFilters"><button class="filter active" data-filter="all">Semua</button><button class="filter" data-filter="Kegiatan">Kegiatan</button><button class="filter" data-filter="Fotografi">Fotografi</button><button class="filter" data-filter="Videografi">Videografi</button><button class="filter" data-filter="Desain">Desain</button></div><div class="gallery-grid" id="galleryGrid"><div class="empty-state"><div class="empty-icon">▧</div><h3>Galeri segera hadir</h3><p>Konten yang diterbitkan oleh admin akan tampil di sini.</p></div></div><div class="gallery-foot"><span id="galleryCount">0 konten ditampilkan</span><button class="btn btn-outline" id="refreshGallery">Muat ulang ↻</button></div></section>
+
+    <section class="portfolio-section" id="karya"><div class="section-wrap portfolio-grid"><div><div class="section-kicker light">04 / KARYA SISWA</div><h2>Ide yang tumbuh,<br><span>karya yang bicara.</span></h2><p>Ruang untuk menampilkan karya terbaik siswa—mulai dari desain identitas visual, poster, fotografi, hingga video kreatif.</p><a class="btn btn-gold" href="#galeri">Jelajahi karya <span>↗</span></a></div><div class="portfolio-shapes"><div class="portfolio-tile tile-yellow">MAKE<br>IT<br><b>MATTER.</b></div><div class="portfolio-tile tile-white"><span>FORM / COLOR / STORY</span><b>VISUAL<br>THINKING</b><div class="tile-circle"></div></div><div class="portfolio-tile tile-blue"><span>STUDENT<br>CREATIVE WORKS</span><b>IDEAS<br>IN MOTION</b></div></div></div></section>
+
+    <section class="join-section section-wrap"><div class="join-mark">✳</div><div><div class="section-kicker">TERUS BERKARYA</div><h2>Setiap karya dimulai<br>dari <span>satu ide.</span></h2></div><a class="btn btn-dark" href="#beranda">Kembali ke atas ↑</a></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-main"><a class="brand footer-brand" href="#beranda"><span class="brand-mark">DKV<span>.</span></span><span class="brand-copy"><strong>SMKN 7</strong><small>KABUPATEN TANGERANG</small></span></a><p>Ruang digital untuk berbagi cerita, dokumentasi kegiatan, dan karya kreatif siswa Desain Komunikasi Visual.</p><div class="footer-links"><a href="#profil">Profil</a><a href="#kegiatan">Kegiatan</a><a href="#galeri">Galeri</a><a href="#karya">Karya Siswa</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> DKV SMKN 7 Kabupaten Tangerang</span><span>DIBUAT DENGAN IDE & KREATIVITAS.</span></div></footer>
+
+  <section class="admin-overlay hidden" id="loginOverlay" aria-modal="true" role="dialog" aria-labelledby="loginTitle"><div class="login-card"><button class="close-modal" id="closeLogin" aria-label="Tutup">×</button><div class="login-logo">DKV<span>.</span></div><p class="section-kicker">AREA PENGELOLA</p><h2 id="loginTitle">Selamat datang.</h2><p class="login-desc">Masuk menggunakan akun admin atau tim media jurusan.</p><form id="loginForm"><label for="loginEmail">Email</label><input id="loginEmail" type="email" autocomplete="username" placeholder="nama@sekolah.sch.id" required><label for="loginPassword">Password</label><input id="loginPassword" type="password" autocomplete="current-password" placeholder="Masukkan password" required><button class="btn btn-dark full-width" type="submit">Masuk ke dashboard ↗</button><p class="form-message" id="loginMessage" role="status"></p></form><p class="login-help">Belum punya akun? Hubungi pengelola utama untuk dibuatkan akun.</p></div></section>
+
+  <section class="admin-app hidden" id="adminApp"><aside class="admin-sidebar"><a class="brand admin-brand" href="#"><span class="brand-mark">DKV<span>7</span></span><span class="brand-copy"><strong>ADMIN PANEL</strong><small>SMKN 7 KAB.TANGERANG</small></span></a><div class="admin-user"><div class="avatar" id="adminAvatar">A</div><div><strong id="adminEmail">Admin</strong><small>Pengelola konten</small></div></div><nav class="admin-nav"><button class="admin-tab active" data-panel="overview">▦ <span>dashboard</span></button><button class="admin-tab" data-panel="content">▤ <span>Konten & Galeri</span></button><button class="admin-tab" data-panel="add">＋ <span>Tambah konten</span></button></nav><button class="admin-logout" id="logoutButton">↪ Keluar</button></aside><div class="admin-main"><header class="admin-topbar"><div><p class="section-kicker">RUANG PENGELOLA</p><h1 id="adminPageTitle">Desain Komunikasi Visual</h1></div><button class="btn btn-outline" id="viewSite">↗ Lihat website</button></header><div class="admin-alert" id="adminNotice" role="status"></div><section class="admin-panel" id="panel-overview"><div class="stat-grid"><article class="stat-card"><span>Total konten</span><strong id="statTotal">—</strong><small>Foto dan video</small></article><article class="stat-card"><span>Dipublikasikan</span><strong id="statPublished">—</strong><small>Tampil di website</small></article><article class="stat-card"><span>Draft</span><strong id="statDraft">—</strong><small>Belum ditampilkan</small></article></div><div class="admin-box"><div class="box-heading"><div><h2>Konten terbaru</h2><p>Konten yang terakhir ditambahkan.</p></div><button class="text-button" data-goto="content">Lihat semua →</button></div><div id="recentList" class="admin-list"><p class="muted">Memuat konten…</p></div></div></section><section class="admin-panel hidden" id="panel-content"><div class="admin-box"><div class="box-heading"><div><h2>Kelola konten</h2><p>Edit status, ubah informasi, atau hapus konten.</p></div><button class="btn btn-dark" data-goto="add">＋ Tambah konten</button></div><div id="manageList" class="manage-list"><p class="muted">Memuat konten…</p></div></div></section><section class="admin-panel hidden" id="panel-add"><div class="admin-box form-box"><div class="box-heading"><div><h2 id="contentFormTitle">Tambah konten baru</h2><p>Konten dapat berupa dokumentasi kegiatan atau karya siswa.</p></div></div><form id="contentForm"><input type="hidden" id="contentId"><div class="form-grid"><div class="field full"><label for="contentTitle">Judul konten *</label><input id="contentTitle" maxlength="120" placeholder="Contoh: Dokumentasi kegiatan jurusan" required></div><div class="field"><label for="contentCategory">Kategori *</label><select id="contentCategory" required><option value="Kegiatan">Kegiatan</option><option value="Fotografi">Fotografi</option><option value="Videografi">Videografi</option><option value="Desain">Desain</option><option value="Karya Siswa">Karya Siswa</option></select></div><div class="field"><label for="contentDate">Tanggal kegiatan *</label><input id="contentDate" type="date" required></div><div class="field full"><label for="contentDescription">Deskripsi</label><textarea id="contentDescription" rows="4" maxlength="1500" placeholder="Ceritakan kegiatan atau karya ini…"></textarea></div><div class="field full"><label for="mediaFile">Unggah foto/video</label><input id="mediaFile" type="file" accept="image/jpeg,image/png,image/webp,image/gif,video/mp4,video/webm,video/quicktime"><small class="field-help">Foto maks. 8 MB, video maks. 50 MB. Video akan disimpan di storage dan dapat memerlukan waktu unggah lebih lama.</small><div id="currentMedia" class="current-media"></div></div><div class="field full"><label for="videoUrl">Atau tautan video YouTube (opsional)</label><input id="videoUrl" type="url" placeholder="https://www.youtube.com/watch?v=…"><small class="field-help">Jika diisi, tautan YouTube akan digunakan sebagai media konten.</small></div><div class="field full"><label class="check-row"><input type="checkbox" id="contentPublished"><span>Publikasikan sekarang — tampil di website publik.</span></label></div></div><div class="form-actions"><button class="btn btn-outline" type="button" id="cancelEdit">Batal</button><button class="btn btn-dark" type="submit" id="saveContent">Simpan konten ↗</button></div><p class="form-message" id="contentMessage" role="status"></p></form></div></section><footer class="admin-footer">© 2026 DKV SMKN 7 Kabupaten Tangerang · Panel Pengelola</footer></div></section>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script><script src="app.js"></script>
+</body>
+</html>

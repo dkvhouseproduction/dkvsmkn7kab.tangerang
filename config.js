@@ -1,0 +1,5 @@
+
+window.DKV_CONFIG = {
+  SUPABASE_URL: "https://iyghuotqhjzqfljjbqvr.supabase.co",
+  SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml5Z2h1b3RxaGp6cWZsampicXZyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE0ODQ2MjIsImV4cCI6MjEwNzA2MDYyMn0.SYGHhI3rGjpF7X8S3ND0AQ35f1MA-AhgVhbTPsO1b2A"
+};
